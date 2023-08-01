@@ -1,0 +1,43 @@
+#title__h1{
+    position: absolute;
+    left: 17%;
+    font-size: 4em;
+    font-weight: bold;
+    top: 60%;
+}
+
+#txt__h1{
+ position: absolute;
+ left: 13%;
+ bottom: 24%;
+ 
+}
+
+#title__h2{
+    position: absolute;
+    left: 45%;
+    font-size: 4em;
+    font-weight: bold;
+    bottom: 50%;
+}
+
+#txt__h2{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    
+   }
+
+   #title__h3{
+    position: absolute;
+    left: 72%;
+    font-size: 4em;
+    font-weight: bold;
+    top: 32%;
+}
+
+#txt__h3{
+  position: absolute;
+  top: 37%;
+  right: 15%;
+   }

@@ -1,0 +1,37 @@
+#cafeinados{
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+
+#cardap{
+    position: absolute;
+    right: 1%;
+    top: 60%;
+}
+
+#cardapio{
+    position: absolute;
+    right: 1%;
+    top: 20%;
+}
+
+.msg__img{
+    position: absolute;
+    left: 45%;
+    bottom: 12%;
+    font-size: 1em;
+}
+
+#text__img{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    font-size: 50px;
+}
+
+#fotos__2{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+}

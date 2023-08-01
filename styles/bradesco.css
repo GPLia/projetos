@@ -1,0 +1,76 @@
+:root{
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body{
+    background: var("background");
+}
+
+body {
+
+    font-family: monospace;
+    
+    }
+    
+    ul {
+    
+    font-family: helvética;
+    
+    }
+
+    li {
+
+        list-style: circle;
+        
+        }
+        
+        .list {
+        
+        list-style: square;
+        
+        }
+
+
+        .light-theme {
+
+            color: #000000;
+            
+            background: #00FF00;
+            
+            }
+
+            .light-theme {
+
+               background:var(--green);
+                
+               color: var(--black)
+
+             
+                
+                }
+                .dark-theme {
+
+                    background:var(--black);
+                     
+                    color: var(--green)
+                 
+                        
+                     }
+
+                   .btn{
+                    color: var(btncolor);
+                    background-color: var(btnbackground);
+
+                    position: absolute;
+                    top: 20px;
+                    left: 250px;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    border: none;
+                    
+                   }
+
+                .btn:focus {outline-style: none;}

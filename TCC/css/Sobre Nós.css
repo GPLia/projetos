@@ -1,0 +1,154 @@
+body{
+    background-image: url(../Imagens/dnnvfundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+   
+
+    
+}
+
+.text__box{
+position: absolute;
+top: 3%;
+left: 45%;
+    
+ 
+    border: solid 1px;
+    border-radius: 50px;
+    width: 300px;
+    background-color: #432918;
+   
+}
+
+ #text__busca{
+    float: flex;
+    background-color: transparent;
+    padding-left: 5px;
+     font-style: ;
+         font-size: 18px;
+              border: none;
+                  height: 32px;
+                      width: 290px;
+                        text-align: center;
+
+  
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+h2{
+    position: absolute;
+    font-size: 4em;
+    left: 22%;
+    bottom: 46%;
+    
+
+}
+
+h3{
+   position: absolute;
+   right: 30%;
+   top: 40%;
+   
+    font-size: 4em;
+}
+#para{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#valores{
+   position: absolute;
+   right: 20%;
+   top: 50%;
+    font-size: 2em;
+}
+
+#text__p2{
+    position: absolute;
+    bottom: 40%;
+    right: 55%;
+    font-size: 2em;
+}
+
+.box{
+    content: ;
+    position: absolute;
+    top: 9%;
+    width: 100%;
+
+    border: 1px solid #432918;
+    border-radius: 5%;
+ 
+    
+
+}
+
+.box__final{
+    content: ;
+    position: absolute;
+    border-bottom: 2px solid  #432918;
+    bottom: 10%;
+    border-radius: 5%;
+    width: 100%;
+  
+   
+    
+}
+
+#text__nos{
+    content: ;
+    position: absolute;
+    left: 18%;
+    bottom: -0%;
+}
+
+#text__sociais{
+    content: ;
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+}
+
+#img__lupa{
+    color: black;
+}
+
+.container__logo{
+  max-width: 100px;
+ text-align: right;
+    
+}
+
+.btn__login{
+    border: 1px solid brown;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+
+}
+
+.sobrenos{
+    position: absolute;
+    top: 3%;
+    left: 30%;
+}
+
+.logos{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}

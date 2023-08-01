@@ -1,0 +1,36 @@
+.txt__center{
+position: absolute;
+left: 25%;
+top: 28%;
+border: 2px solid rgb(0, 0, 0);
+border-radius: 10%;
+    width: 900px;
+height: 300px;
+   
+}
+
+#texto-sobre{
+   
+    position: absolute;
+    top: 30%;
+    left: 26%;
+ font-size: 3em;
+ 
+}
+
+#txt__crtl{
+    position: absolute;
+    left: 32%;
+    top: 40%;
+    font-size: 2em;
+}
+
+#btn__central{
+    border: 1px solid black;
+    border-radius: 20%;
+    cursor: pointer;
+    background: black;
+    position: absolute;
+    left: 46%;
+    top: 52%;
+}

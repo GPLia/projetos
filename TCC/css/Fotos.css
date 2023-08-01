@@ -1,0 +1,37 @@
+#text__img{
+    position: absolute;
+    left: 48%;
+    top: 20%;
+    font-size: 50px;
+}
+
+.msg__img{
+    position: absolute;
+    left: 45%;
+    bottom: 12%;
+    font-size: 1em;
+}
+
+#xicara{
+    position: absolute;
+    left: 1%;
+    top: 60%;
+}
+
+#anjo{
+    position: absolute;
+    right: 1%;
+    top: 60%;
+}
+
+#bolo{
+    position: absolute;
+    right: 1%;
+    top: 20%;
+}
+
+#fotos__1{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+}

@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding:  2%;
+}
+
+html,body{
+    background-color: #f1c1a1;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    position: absolute;
+    left: 30%;
+    top: 3%;
+    width: 50%;
+}
+
+.menu{
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    padding: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+color:#432918 ;
+text-decoration: none;
+font-weight: bold;
+margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: absolute;
+   top: 100%;
+}
+
+.extras{
+    position: absolute;
+    bottom: 100%;
+    right: 100%;
+    width: 1850px;
+    height: 1650px;
+    border-radius: 50%;
+    background-color: #432918;
+}
+
+.social-media{
+    
+    position: absolute;
+    left: 75%;
+    top: 30%;
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.img-xicaras{
+    position: absolute;
+    bottom: 50%;
+    top: 100%;
+
+}
+
+
+.texto-sobre{
+    margin-top: -200px;
+
+}
+
+.texto-sobre h1{
+    font-size: 30px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: #432918;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #432918;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#text__sociais{
+    position: absolute;
+    bottom: 20%;
+    left: 17%;
+}
+
+
+#text__nos{
+    position: absolute;
+    bottom: 5%;
+   left: 45%;
+}
+
+ 
+
+
+
+header{
+    
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+footer{
+    border: 3px solid black;
+    bottom: 0;
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    position: absolute;
+    width: 100%;
+}
+
+main{
+    height: 76vh;
+}
+
+#txt__sup1{
+    border: 2px solid black;
+    border-radius: 10%;
+    font-size: 20px;
+    position: absolute;
+    left: 1%;
+    bottom: 15%;
+}
+
+#gifs__1{
+position: absolute;
+left: 90%;
+top: 1%;
+}
+
+#gifs__2{
+    border: none;
+    border-radius: 0%;
+    position: absolute;
+right: 90%;
+top: 1%;
+}
+
+#icon__1{
+    border: none;
+    border-radius: 0%;
+    position: absolute;
+left: 90%;
+bottom: 5%;
+}
+
+#icon__2{
+    border: none;
+    border-radius: 0%;
+    position: absolute;
+left: 95%;
+bottom: 1%;
+}
+
+#icon__3{
+    border: none;
+    border-radius: 0%;
+    position: absolute;
+right: 90%;
+bottom: 5%;
+}
+
+#icon__4{
+    border: none;
+    border-radius: 0%;
+    position: absolute;
+    right: 95%;
+    bottom: 1%;
+}

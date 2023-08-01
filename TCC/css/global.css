@@ -1,0 +1,302 @@
+.box{
+    display: block;
+    border: 1px solid black;
+    border-radius: 20%;
+    border-width: 100%;
+    border-color: #432918;
+}
+
+#txt__crtl{
+    font-size: 40px;
+
+    text-decoration: #432918;
+    text-align: center;
+}
+
+.texto-sobre{
+    font-size: 40px;
+
+    text-decoration: #432918;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+}
+
+#text__nos{
+    position: absolute;
+    left: 30%;
+    bottom: 1%;
+}
+
+#text__sociais{
+    position: absolute;
+    left: 40%;
+    bottom: 1%;
+}
+
+.social-media{
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+}
+
+#btn__central{
+    position: absolute;
+    left: 47%;
+}
+
+#para{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3ea8c6;
+    background-size: 10px;
+    padding: 35px;
+    height: 40px; 
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+}
+title{
+    font-size: 250px;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #00ccff;
+    background-size: 50px;
+    padding: 35px;
+    height: 200px; 
+
+}
+.cabecalhomenu {
+    display: flex;
+    gap: 110px;
+}
+a {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top:90px;
+    font-family:arial;
+}
+#titulo1{
+margin-right: 1500px;
+font-family:signpainter;
+font-size: 100px;
+color: rgb(0, 0, 0);
+}
+.img {
+  width: 100%;
+}
+button {
+    font-size: 25px;
+    text-align: center;
+}
+#frase{
+margin-top: 450px;
+font-size: 30px;
+
+}
+#login{
+margin-left: 1100px;
+
+
+
+}
+#cadas{
+    margin-left: 150px;
+
+    }
+.search-text{
+margin-left: 1200px;
+ margin-bottom: 600px;
+ margin-top: 100px;
+}
+.titulo1 {
+    font-size: 85px;
+    margin-left: -10px;
+}
+.secao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 50px;
+    margin-top:200px;
+ 
+}
+.div2 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 25px;
+    margin-left:140px;
+}
+.titulo1 {
+    font-size: 440px;
+    color: rgb(0, 0, 0);
+    margin-left:130px;
+    font-family: signpainter;
+}
+.titulo2 {
+    font-size: 150px;
+    color: rgb(0, 0, 0);
+    margin-left:130px;
+    font-family: 'Delicious Handrawn',cursive;
+  
+}
+.botao1 {
+    background-color:rgb(155, 99, 25);  
+    font-size: 80px;
+    border-radius: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom:5px; 
+    padding-top: 5px; 
+    color: white;
+    animation-name: animacao;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    size: 600px;
+   font-family: 'Delicious Handrawn',cursive;
+    margin-top:100px;
+}
+.botao1:hover{
+color: rgb(156, 101, 53);
+background-color:rgba(255, 255, 255, 0.75);
+width: 330px;
+height:180px;
+}
+.botao2:hover{
+    color: rgb(156, 101, 53);
+    background-color:rgba(255, 255, 255, 0.75);
+    width: 430px;
+    height:180px;
+    }
+.botao2 {
+    background-color:rgb(155, 99, 25);
+    font-size: 80px;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    animation-name: animacao;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: white;
+    font-family: 'Delicious Handrawn', cursive;
+    margin-top:100px;
+}
+.img2 {
+    width: 3000px;
+    margin-top: 90px;
+    margin-left:100px;
+}
+body {
+    background-image: url(melhor7.png);
+    background-repeat: no-repeat;
+    height: 3000px;
+    width: 100%;
+    background-size: cover;
+}
+#pesquisa{
+margin-right:50px;
+margin-top: 120px;
+background-color: rgba(202, 197, 197, 0.154);
+width:1400px;
+height:70px;
+font-size: 50px;
+padding-left:20px;
+font-family: tahoma;
+border-radius: 30px;
+color:white;
+
+}   
+.logo{
+width: 400px;
+}
+#pesquisa:hover{
+background-color: rgba(255, 166, 93, 0.688);
+}
+
+.img3{
+width:2300px;
+margin-left:200px;
+}
+h2{
+ color:aliceblue;
+font-size: 440px;
+font-family: signpainter ;
+}
+.div5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.titulo8 {
+    margin-bottom: 425px;
+}
+.texto{
+    margin-left: 1800px;
+    margin-top: 1100px;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 5px black;
+    font-size: 4.5em; 
+}
+.conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3em;
+}
+.paragrafo{
+    font-size: 4.5em;
+    margin-top: 200px ;
+    color: white;
+}
+.bloco{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: white;
+    font-size: 3em;
+    
+}
+.intercamb{
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    padding: 80px;
+}
+button{
+    padding: 40px;
+    background-color: #ffffff;
+    outline-color: #011d0c;
+    border: none;
+    color: rgb(20, 172, 152);
+    border-radius: 35px;
+
+}
+

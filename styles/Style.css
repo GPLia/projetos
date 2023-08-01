@@ -1,0 +1,47 @@
+.container{
+    border: 1px solid black;
+    width: 100%;
+    display:  grid; 
+    grid-template-columns: 40% 30% 30%;
+     grid-template-rows: 40px 180px 200px; 
+   /* grid-auto-rows: 80px;*/
+    /* row-gap: 50px;
+    column-gap: 5px; */
+    gap: 5px 5px;
+    grid-template-areas:
+    "b1 b1 b1"
+    "b2 b2 b3" 
+    "b4 b5 b3";
+    /*align-items: center;
+    justify-items: ;*/
+}
+
+#Box1{
+grid-area: b1;
+}
+
+#Box2{
+    grid-area: b2;
+    }
+
+    #Box3{
+        grid-area: b3;
+        }
+
+        #Box4{
+            grid-area: b4;
+            align-self: ;
+            justify-self: ;
+            height: ;
+            }
+
+            #Box5{
+                grid-area: b5;
+                }
+
+.Box{
+    border: 1px solid blue ;
+    background-color: tomato; 
+   
+}
+
